@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <!-- link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;800&display=swap" rel="stylesheet">
+        <title>Metric / Imperial Conversion</title>
+    </head>
+    <body>
+        <!-- Going for the semantic approach this time -->
+        <main>
+            <section id="inputArea">
+                <h1>Metric/Imperial unit conversion</h1>
+                <p>Enter value to convert:</p>
+                    <input id="inpValue" type="text" size="2"></input>
+                    <button id="inpValue-btn" onclick="convert()">Convert</button>
+                    <!-- p id="inputNo"></p -->
+            </section>
+            <section id="conversionArea">
+                <div class="darkmode">
+                    <p class="bolder">Length (Meter/Feet)</p>
+                    <p id="length-conv"></p>
+                </div>
+                <div class="darkmode">
+                    <p class="bolder">Volume (Liters/Gallons)</p>
+                    <p id="volume-conv"></p>
+                </div>
+                <div class="darkmode">
+                    <p class="bolder">Mass (Kilograms/Pounds)</p>
+                    <p id="mass-conv"></p>
+                </div>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
