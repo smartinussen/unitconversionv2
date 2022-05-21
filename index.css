@@ -7,8 +7,8 @@ html, body {
 h1 {
     font-weight: 800;
     font-size: 22px;
-    margin: 0px auto 0px auto;
-    padding: 50px 0px 20px 0px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 20px 0;
     color: white;
 }
 #inputArea {
@@ -33,14 +33,16 @@ h1 {
     font-size: 96px;
     margin-top: 10px;
     font-weight: 800;
-    color: white;
 }
 #inpValue-btn {
     text-align: center;
-    margin: 50px;
-    font-size: 14px;
-    padding: 5px 10px;
+    margin: 20px 50px 20px 50px;
+    font-size: 24px;
+    /* padding: 5px 10px; */
     filter:drop-shadow(3px 3px 2px black);
+}
+#inpValue-btn:hover {
+
 }
 /* #inputNo {
     font-size: 98px;
@@ -58,7 +60,7 @@ h1 {
     //flex-direction: column;
     /* Tried without FLEX, shows the same but more cramped. Adjusted with padding 2px instead */
     /* Could not help myself, and create a rounded frame */
-    border: 0x 10px 10px 10px solid white;
+    border: 0px 10px 10px 10px solid white;
     background-color: #1f2937;
     color: white;
     width: 550px;
